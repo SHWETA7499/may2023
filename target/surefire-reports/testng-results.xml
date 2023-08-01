@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="10516" started-at="2023-07-28T05:20:24Z" finished-at="2023-07-28T05:20:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@160ac7fb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="10516" started-at="2023-07-28T05:20:24Z" finished-at="2023-07-28T05:20:35Z">
+      <class name="runner.RunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunTest@160ac7fb]" name="setUpClass" is-config="true" duration-ms="632" started-at="2023-07-28T05:20:24Z" finished-at="2023-07-28T05:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@160ac7fb]" name="runScenario" duration-ms="9799" started-at="2023-07-28T05:20:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-28T05:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login funcationality with valid credencials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunTest@160ac7fb]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2023-07-28T05:20:35Z" finished-at="2023-07-28T05:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
